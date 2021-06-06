@@ -18,4 +18,5 @@ function SearchBar({ handleSearchChange }) {
     </div>
   );
 }
+
 export default SearchBar;
