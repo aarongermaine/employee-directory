@@ -7,7 +7,7 @@ import "../styles/DetailTable.css";
 // map and display table function
 function DetailTable({ headings, users, sortHandler }) {
   return (
-    <div className="">
+    <div className="table">
       <table id="table" className="table">
         <thead>
           <tr>
@@ -22,7 +22,7 @@ function DetailTable({ headings, users, sortHandler }) {
                   }}
                 >
                   {name}
-                  <span className=""></span>
+                  <span></span>
                 </th>
               );
             })}

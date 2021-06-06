@@ -1,0 +1,17 @@
+
+
+.table .col {
+    cursor: pointer;
+  }
+  
+  .table .col .pointer:after {
+   
+    content: "sort";
+    margin-right: 18px;
+  }
+  
+  .table .col .pointer:hover:after {
+    
+    content: "sort";
+    margin-right: 0;
+  }

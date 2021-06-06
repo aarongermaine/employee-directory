@@ -32,6 +32,10 @@ function DetailBody({ users }) {
               <td data-th="Name" className="name-cell fixed-center">
                 {name.first} {name.last}
               </td>
+              <p></p>
+              <td data-th="DOB" className="fixed-center">
+                {DateDisplay(dob.date)}
+              </td>
               <td data-th="Phone" className="fixed-center">
                 {phone}
               </td>
@@ -39,9 +43,6 @@ function DetailBody({ users }) {
                 <a href={"mailto:" + email} target="__blank">
                   {email}
                 </a>
-              </td>
-              <td data-th="DOB" className="fixed-center">
-                {DateDisplay(dob.date)}
               </td>
             </tr>
           );
