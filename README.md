@@ -24,7 +24,7 @@ No installation required!
 
 ## Usage
 
-Simply go to the following link - []()
+Simply go to the following link - [Site](https://aarongermaine.github.io/employee-directory/)
 
 ## Contributions
 
