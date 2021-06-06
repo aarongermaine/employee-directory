@@ -2,7 +2,7 @@
 
 A simple react app employers can use to manage employees!
 
-![Image of Site]()
+![Image of Site](https://i.imgur.com/x9xpuQc.png)
 
 # Table Of Contents
 
